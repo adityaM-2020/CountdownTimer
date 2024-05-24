@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #00d2ff;
+}
+
+
+.countdowntimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width:60vw;
+  margin: auto;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-title {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 36px; 
+  font-weight: bold; 
+  text-align: center; 
+  color: #333; 
+}
+
+.timer-div{
+  margin-right: 20px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-right:5px;
+}
+
+.input-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.input-container input[type="number"] {
+  padding: 8px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 60px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.input-container input[type="number"]:focus {
+  border-color: #0056b3;
+}
+
+.input-container input[type="number"]::-webkit-inner-spin-button,
+.input-container input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-container input[type="number"]::-webkit-outer-spin-button,
+.input-container input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
